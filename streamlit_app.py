@@ -149,7 +149,7 @@ print("Let's get our prediction")
 knn_predictions = knn.predict(X_test)
 knn_predictions
 
-print(Now we see how accurate was our model)
+print("Now we see how accurate was our model")
 accuracy = knn.score(X_test, y_test)
 accuracy
 
