@@ -120,7 +120,7 @@ print(df_lung)
 corr_matrix = df_lung.corr()
 print(corr_matrix['Result'])
 
-As we can see, Age is not sufficient and no other variable on its own is sufficient to explain the fact to have lung cancer.</br>
+print("As we can see, Age is not sufficient and no other variable on its own is sufficient to explain the fact to have lung cancer.</br>")
 
 print("""Using "Multi-class classification" a machine learning we'll try to predict if a person has cancer or not </br>
 for this I chose 3 variables to explain using 4 variables : 
